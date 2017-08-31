@@ -53,9 +53,12 @@ def zapis_do_pliku(): #zapis wylosowanych liczb i wyniku do pliku
     
         
 
+def main():
+    losuj()
+    list_to_copy()
+    sortuj()
+    zapis_do_pliku()
+    
+main()
 
-losuj()
-list_to_copy()
-sortuj()
-zapis_do_pliku()
     
