@@ -47,8 +47,6 @@ def zapis_do_pliku(): #zapis wylosowanych liczb i wyniku do pliku
         writer.writerow(copied_list)
         writer.writerow(sort_list)
         writer.writerow(["Posortowane liczby ^"])
-        #for data in some_source:
-        #writer.writerow(data)
         print("Finished writing", target_path)
     
         
